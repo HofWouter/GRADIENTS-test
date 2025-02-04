@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>TOOL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class= "canvas-container">
+    <div class="container">
+        <section>
+                <div>
+                    <p class="textblok">Adjustments</p>
+                    <div class="slider">                  
+                        <input type="range" id="slider" value="0" min="0" max="400">
+                    </div>
+                    <div class ="slider">
+                        <input type="range" id="time" value="2" min="2" max="360">
+                    </div>
+                    <div class ="slider">
+                        <input type="range" id="sharpness" value="30" min="30" max="200">
+                    </div>
+                    <div class="button">
+                        <input type="color" id="colorpicker1" value="#000000">
+                    </div>
+                    <div class="button">
+                        <input type="color" id="colorpicker2" value="#FFFFFF">
+                    </div>
+                </div>
+                <div>
+                    <p class="textblok">File</p>
+                    <button class="button" id="export" onclick="exportImage()">Export</button>
+                </div>                
+        </section>
+        <section id="canvasWrapper">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.min.js"></script>
+            <script src="sketch.js"></script>
+            <script src="CANVAS.js"></script>  
+        </section>
+
+    </div>
+
+
+
+</body>

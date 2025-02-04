@@ -1,0 +1,79 @@
+/* DIT WORDT MIJN STYLESHEET!!*/
+
+.canvas-container{
+        padding: 50px;
+        background-color:rgb(255, 255, 255);
+        opacity: (1);
+}
+
+.textlaag{
+
+        background-color:white;
+        width:300px;
+        padding:20px;
+        margin-bottom:20px;
+
+}
+
+.container{
+
+        display: flex;
+        width: 200px;
+        gap: 48px;
+
+}
+
+section{
+
+        flex: 1;
+        padding: 16px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid black;  
+
+}
+
+.button{
+        border-color:black;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 200px;
+        font-family: Arial;
+        text-align: center;
+        padding: 16px 16px;
+        margin: 4px;
+        width: 120px;
+        background-color: white;
+        color:black;
+        }
+        
+        .button:hover{
+        
+        
+        color: rgb(255, 255, 255);
+        border-color:white;
+        background-color: rgb(0, 0, 0);
+        
+        }
+.slider{
+        border-color:black;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 200px;
+        font-family: Arial;
+        text-align: center;
+        padding: 16px 16px;
+        margin-top:8px;
+        margin-bottom: 8px;
+        width: 220px;
+        background-color: white;
+        color:black;
+}
+
+.textblok{
+        padding:8px;
+        font-family:Arial;
+        text-align:center;
+        background-color:black;
+        color: white;
+
+}
