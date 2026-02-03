@@ -4,7 +4,6 @@ class CANVAS {
       
 
     }   
-
         COMP_BOVEN(snelheid){
 
         let widthX = width / numX;
@@ -155,5 +154,4 @@ class CANVAS {
             pop();
 
         }
-    
   }

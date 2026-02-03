@@ -6,17 +6,21 @@
 
 <body class= "canvas-container">
     <div class="container">
-        <section>
-                <div>
+        <section class="sidebar">
                     <p class="textblok">Adjustments</p>
-                    <div class="slider">                  
+                    <div>
+                     <input class="button" type="file" id="imageUpload" accept="image/*" />
+                    <div class="button">                  
                         <input type="range" id="slider" value="0" min="0" max="400">
                     </div>
-                    <div class ="slider">
-                        <input type="range" id="time" value="2" min="2" max="360">
+                    <div class="button">                  
+                        <input type="range" id="speed" value="10" min="1" max="15">
                     </div>
-                    <div class ="slider">
-                        <input type="range" id="sharpness" value="30" min="30" max="200">
+                    <div class ="button">
+                        <input type="range" id="sharpness" value="30" min="30" max="100">
+                    </div>
+                    <div class ="button">
+                        <input type="range" id="alphaValue" value="2" min="0" max="255">
                     </div>
                     <div class="button">
                         <input type="color" id="colorpicker1" value="#000000">
@@ -24,16 +28,19 @@
                     <div class="button">
                         <input type="color" id="colorpicker2" value="#FFFFFF">
                     </div>
-                </div>
-                <div>
+                    <input type="text" id="text"class="text-input" placeholder="write something...">                                          
+                    </div>
                     <p class="textblok">File</p>
+                    <div>
                     <button class="button" id="export" onclick="exportImage()">Export</button>
-                </div>                
-        </section>
+                    </div>                   
+        </section>      
         <section id="canvasWrapper">
             <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.min.js"></script>
             <script src="sketch.js"></script>
             <script src="CANVAS.js"></script>  
+            <script src="TYPO.js"></script>
+            <script src="IMAGE.js"></script>
         </section>
 
     </div>
